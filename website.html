@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>  Haykel DRIDI </title>
+<style>
+	.form ul {
+display: inline-flex;
+	}
+.form ul li {
+	list-style-type: none;
+}
+.form ul li a{
+	text-decoration: none;
+	color: yellow ; 
+	border: solid 2px ;
+    background: red;
+    border-color: red;
+    border-radius: 30px;
+    padding: 10px;
+}
+body{
+	background: #C3FF8C;
+}
+h1{
+	    color: green;
+	    border: solid 2px;
+	    border-color: blue;
+	    border-radius: 30px;
+}
+h1:hover{
+	background:green;
+	color: yellow;
+}
+.tyre1{
+	width: 180px;
+	height: 180px;
+	margin-left:450px;
+	margin-top: 30px;
+	animation: tyre1 2s infinite linear ;
+}
+@keyframes tyre1{
+	from {
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
+
+.tyre2{
+	width: 180px;
+	height: 180px;
+	margin-left: 450px;
+	margin-top: 50px;
+	animation: tyre2 2s infinite linear;
+}
+@keyframes tyre2{
+	from{
+		transform:rotate(0deg);
+	}
+to{
+	transform:rotate(-360deg);
+}
+}
+</style>
+</head>
+<body>
+<div class="form">
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="website.html">About</a></li>
+		<li><a href="Login.html">Login</a></li>
+	</ul>
+</div>
+<h1>          Haykel DRIDI  Software Engineer </h1>
+<div class="pro"></div>
+<div>
+	<img src="image.png"class="tyre1">
+</div>
+<div>
+	<img src="image1.png"class="tyre2"> 
+</div>
+</body>
+</html>
